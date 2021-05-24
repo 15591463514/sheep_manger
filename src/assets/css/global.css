@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body,#app{
+    height:100%;
+}
+.el-breadcrumb{
+    border-bottom: 0.5px solid #4b9100;
+    padding: 10px 0 10px 10px;
+    
+}
+.el-breadcrumb span{
+    color: #4b9100;
+    cursor: pointer;
+    font-weight: bold;
+}
+#mainpage{
+    color:#4b9100;
+    cursor: pointer;
+}
+/* 对齐表头与数据 */
+.el-table th.gutter{
+    display: table-cell!important;
+}
+#bodypage{
+    background-color: #FFF;
+    margin: 10px !important;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.356);
+    min-width: 1200px;
+}
+.el-pagination{
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+}
